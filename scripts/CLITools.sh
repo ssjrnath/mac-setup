@@ -34,6 +34,7 @@ brew install httpie
 
 echo "Rust"
 curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
 
 echo "ack"
 brew insall ack
