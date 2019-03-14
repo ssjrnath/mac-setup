@@ -39,6 +39,9 @@ source $HOME/.cargo/env
 echo "ack"
 brew insall ack
 
+echo "exercism"
+brew install exercism
+
 # Install GNU `sed`, overwriting the built-in `sed`. "sed"=> "stream editor"
 echo "gnu-sed"
 brew install gnu-sed
